@@ -1,13 +1,4 @@
 import csv
-import tkinter
-
-window=tkinter.Tk()
-
-window.title("YUN DAE HEE")
-window.geometry("640x400+100+100")
-window.resizable(False, False)
-
-
 
 print("추출할 파일 텍스트 이름을 입력하세요")
 chat_text_file = input()
