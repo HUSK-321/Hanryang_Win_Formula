@@ -20,7 +20,7 @@ txtFile = open(chat_text_file, 'r', encoding='UTF8')
 
 chats = txtFile.readlines()
 
-print("이 당시 배율을 입력해 주세요")
+print("이긴 판이라면 1, 진 판이라면 0을 입력해 주세요")
 label = input()
 
 chat_output = []
